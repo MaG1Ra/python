@@ -20,4 +20,4 @@ print(f'Рост отца - {my_family_height[1][1]} см')
 # Выведите на консоль общий рост вашей семьи как сумму ростов всех членов
 #   Общий рост моей семьи - ХХ см
 sum = my_family_height[0][1] + my_family_height[1][1] + my_family_height[2][1] + my_family_height[3][1] + my_family_height[4][1] + my_family_height[5][1]
-print(f'Средний рост - {sum} см')
+print(f'общий рост - {sum} см')
