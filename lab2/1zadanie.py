@@ -2,7 +2,7 @@ def first():
     """
     
     >>> first()
-    Может быть 144 различных слов.
+    Может быть 192 различных слов.
 
     """
     import itertools
@@ -13,9 +13,10 @@ def first():
     arl = []
     for i in ar:
         arl.append(list(i))
+    print(arl)
     count = 0
     for e in arl:
-        if e[0] in s and e[1] in s and e[2] in s1 and e[3] in s1:
+        if e[0] in s and e[1] in s1 and e[2] in s1 and e[3] in s1:
             count += 1
     return print(f'Может быть {count} различных слов.')
 first()
